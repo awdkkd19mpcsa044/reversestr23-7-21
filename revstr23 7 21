@@ -1,0 +1,23 @@
+import java.util.*;
+class revstr23
+{
+public static void main(String args[])
+{
+Scanner sc = new Scanner (System.in);
+Stack<Integer> v=new Stack<Integer>();
+System.out.print("enter size");
+int n=sc.nextInt();
+System.out.print("enter n values");
+for(int i=0;i<n;i++)
+{
+v.push(sc.nextInt());
+}
+System.out.print("Max ="+Collections.max(v));
+System.out.print("Min ="+Collections.min(v));
+}
+}
+
+
+enter size5
+enter n values5 10 13 50 80 90
+Max =80Min =5
